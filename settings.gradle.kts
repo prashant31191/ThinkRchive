@@ -8,4 +8,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "ThinkRchive"
-include(":app")
+include(":androidApp")
+include(":shared")
