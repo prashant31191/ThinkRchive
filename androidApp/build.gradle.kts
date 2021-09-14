@@ -56,6 +56,9 @@ android {
 
 dependencies {
 
+    // Shared module dependency
+    implementation(project(":shared"))
+
     implementation(Deps.coreKtx)
     implementation(Deps.appCompat)
     implementation(Deps.material)
